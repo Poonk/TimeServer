@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package protocol;
+
+message TimeReq {
+    uint32 cmd = 1;
+}
+message TimeRes {
+    string time = 1;
+    string GMT = 2;
+}
